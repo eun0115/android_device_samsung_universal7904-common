@@ -46,3 +46,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Perf
 ro.vendor.perf.scroll_opt=true
+
+# Render Engine 
+debug.renderengine.backend=skiaglthreaded
