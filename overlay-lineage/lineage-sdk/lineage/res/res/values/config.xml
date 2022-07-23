@@ -12,5 +12,6 @@
         <item>restart_recovery</item>
         <item>restart_download</item>
         <item>restart_fastboot</item>
+        <item>restart_sysui</item>
      </string-array>
 </resources>
