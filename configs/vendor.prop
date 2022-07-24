@@ -19,6 +19,13 @@ ro.frp.pst=/dev/block/persistent
 ## Fastbootd
 ro.fastbootd.available=true
 
+# Iorap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+ro.iorapd.enable=false
+vendor.iop.enable_prefetch_ofr=0
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+
 # LTE, GSM and WCDMA
 ro.telephony.default_network=9,9
 
