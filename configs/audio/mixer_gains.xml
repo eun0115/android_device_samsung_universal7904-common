@@ -1,6 +1,12 @@
 <mixer>
 	<!-- Output volume stage -->
 	<!-- media playback volume -->
+		
+	<ctl name="DAC Gain" value="150" />
+	<ctl name="Speaker Volume" value="150" />
+	<ctl name="Earphone Volume" value="170" />
+	<ctl name="Headphone Volume" value="170" />
+		
 	<path name="gain-media-handset">
 		<ctl name="DAC Gain" value="156" />
 		<ctl name="Earphone Volume" value="170" />
@@ -70,6 +76,7 @@
 	</path>
 
 	<path name="gain-communication-speaker">
+		<ctl name="Speaker Volume" value="119" />
 	</path>
 
 	<path name="gain-communication-headset">
@@ -763,9 +770,7 @@
 	<!-- bargein samsung input volume -->
 	<path name="gain-bargein_samsung_engine-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="ADC Left Gain" value="127" />
-
 		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
@@ -842,11 +847,8 @@
 
 	<path name="gain-communication-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="135" />
-
 		<ctl name="ADC Right Gain" value="135" />
 	</path>
 
@@ -879,11 +881,8 @@
 
 	<path name="gain-samsung_voip-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="135" />
-
 		<ctl name="ADC Right Gain" value="135" />
 	</path>
 
@@ -950,11 +949,8 @@
 
 	<path name="gain-voip-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="135" />
-
 		<ctl name="ADC Right Gain" value="135" />
 	</path>
 
@@ -987,11 +983,8 @@
 
 	<path name="gain-wificall_nb-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="127" />
-
 		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
@@ -1024,11 +1017,8 @@
 
 	<path name="gain-wificall_wb-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="127" />
-
 		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
@@ -1079,11 +1069,8 @@
 
 	<path name="gain-video_call-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="127" />
-
 		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
@@ -1273,11 +1260,8 @@
 
 	<path name="gain-incall_nb-speaker-mic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="2" />
-
 		<ctl name="ADC Left Gain" value="127" />
-
 		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
@@ -1369,11 +1353,8 @@
 
 	<path name="gain-loopback_packet-speaker-dualmic">
 		<ctl name="MIC1 Boost Volume" value="1" />
-
 		<ctl name="MIC2 Boost Volume" value="1" />
-
 		<ctl name="ADC Left Gain" value="137" />
-
 		<ctl name="ADC Right Gain" value="137" />
 	</path>
 
