@@ -1,0 +1,5 @@
+-keep public class com.eun0115.samsungparts.KeyHandler
+
+-keepclassmembers public class com.eun0115.samsungparts.KeyHandler {
+    *;
+}
